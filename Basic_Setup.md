@@ -1,9 +1,9 @@
 # Initial git Configuration
 
 ## Local
-* [cli.md](cli configuration)
-* [ssh_keys.md](SSH Keys)
+* [cli configuration](cli.md)
+* [SSH Keys](ssh_keys.md)
 
 ## Remote
-* [remote_overview](Remote overview)
-* [ssh_keys.md](SSH Keys)
+* [Remote Overview](remote_overview.md)
+* [SSH Keys](ssh_keys.md)
