@@ -83,17 +83,17 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     6. [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 ## Basic commands
-* `git status`
-* `git diff` 
-* `git log`
-* `git commit -m "descriptive message"`
-* `git pull`
-* `git fetch`
-* `git push`
-* `git clone <git repository url>`
-* `git checkout -b "feature_name"` 
-* `git merge "feature_name"`
-* `git branch "branch_name"`
+* git status
+* git diff 
+* git log
+* git commit -m "descriptive message"
+* git pull
+* git fetch
+* git push
+* git clone <git repository url>
+* git checkout -b "feature_name" 
+* git merge "feature_name"
+* git branch "branch_name"
 
 ## Create a new repository
 ```
