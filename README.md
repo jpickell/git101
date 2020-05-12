@@ -59,25 +59,28 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 	git commit -m "Updated the foobar function to properly sanitize input"
 	```
     3. Push the code to the remote
-```
-git push
-```
-       1. The first time you push code, you must specify the remote origin and branch
-```
-git push -u origin master
-```
+	```
+	git push
+	```
+
+        1. The first time you push code, you must specify the remote origin and branch
+	```
+	git push -u origin master
+	```
 
 6. Branching should be used on code that has been published! (never push directly to master unless you are the only one working on the code, and even then, it's not recommended.)
     1. Create a new branch and name it after the specific fix or enhancement.
         ```
 	git checkout -b "jira_or_feature_name"
 	```
+
     2. make your updates to the branch as specified in #5 above
     3. push the code and create a merge request immediately
-```
+	```
         git push
         git merge "jira_or_feature_name"
-```
+	```
+
     4. or to invite peer review, you can create a merge request from the web gui
     5. depending on your workflow, either the peer will merge the code, or they will approve it so that you can merge it.
     6. [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
