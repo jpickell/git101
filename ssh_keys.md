@@ -1,5 +1,7 @@
 # SSH Key creation and usage
 
+SSH Keys allow for secure communication when pushing or pulling code from a remote repository (such as github.com)
+
 ## Create New Key
   (only necessary if you don't already have a set of keys that you would like to use)
 
