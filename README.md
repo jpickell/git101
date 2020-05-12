@@ -64,8 +64,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 	git push
 	```
 
-        The first time you push code, you must specify the remote origin and branch
-
+    4. The first time you push code, you must specify the remote origin and branch
 
 	```
 	git push -u origin master
