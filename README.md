@@ -51,22 +51,22 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     1. [Basic markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 5. Don't wait to commit!  Each commit should be one minor update to the code, not an entire re-write
     1. Add the files in the local repo: 
-	```c
+	```
 	git add .
 	```
     2. Add a descriptive commit message
-	```c
+	```
 	git commit -m "Updated the foobar function to properly sanitize input"
 
 	```
     3. Push the code to the remote
-	```c
+	```
 	git push
-
 	```
 
         The first time you push code, you must specify the remote origin and branch
-	```c
+
+	```
 	git push -u origin master
 	```
 
