@@ -65,10 +65,10 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 	```
 
-        1. The first time you push code, you must specify the remote origin and branch
-	    ```c
-	    git push -u origin master
-	    ```
+        The first time you push code, you must specify the remote origin and branch
+	```c
+	git push -u origin master
+	```
 
 6. Branching should be used on code that has been published! (never push directly to master unless you are the only one working on the code, and even then, it's not recommended.)
     1. Create a new branch and name it after the specific fix or enhancement.
