@@ -62,6 +62,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     3. Push the code to the remote
 	```c
 	git push
+
 	```
 
         1. The first time you push code, you must specify the remote origin and branch
