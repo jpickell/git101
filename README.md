@@ -71,11 +71,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 	```
 
 6. Branching should be used on code that has been published! (never push directly to master unless you are the only one working on the code, and even then, it's not recommended.)
+
     1. Create a new branch and name it after the specific fix or enhancement.
 
-```
+	```
 	git checkout -b "jira_or_feature_name"`
-```
+	```
 
     2. make your updates to the branch as specified in #5 above
     3. push the code and create a merge request immediately
